@@ -236,6 +236,9 @@ vnoremap <F1> <ESC>
 " Toggle Highlighting -- h
 nmap <silent> <leader>h :set hlsearch!<CR>
 
+" Remap Vimwiki for window split
+nmap <Leader>wq <Plug>VimwikiUISelect
+
 " Update vimrc -- v OR ev
 nmap <leader>v :tabedit $MYVIMRC<CR>
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
