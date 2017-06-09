@@ -215,6 +215,9 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-[> >gv
 
+" Vimwiki
+:nmap <Leader>w9 <Plug>VimwikiUISelect
+
 " Viewport Scrolling
 nnoremap <C-e> 3<C-e>               " Speed up viewport scrolling
 nnoremap <C-y> 3<C-y>
