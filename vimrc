@@ -215,9 +215,6 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-[> >gv
 
-" Vimwiki
-:nmap <Leader>w9 <Plug>VimwikiUISelect
-
 " Viewport Scrolling
 nnoremap <C-e> 3<C-e>               " Speed up viewport scrolling
 nnoremap <C-y> 3<C-y>
@@ -240,7 +237,7 @@ vnoremap <F1> <ESC>
 nmap <silent> <leader>h :set hlsearch!<CR>
 
 " Remap Vimwiki for window split
-nmap <Leader>wq <Plug>VimwikiUISelect
+nmap <Leader>w9 <Plug>VimwikiUISelect
 
 " Update vimrc -- v OR ev
 nmap <leader>v :tabedit $MYVIMRC<CR>
