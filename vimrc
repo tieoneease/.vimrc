@@ -130,7 +130,7 @@ let g:jsx_ext_required = 1
 let g:used_javascript_libs = 'react'
 set background=dark
 let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme dracula
+colorscheme base16-ocean
 
 " Auto Commands
 " Auto source vimrc on save 
