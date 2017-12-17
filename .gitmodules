@@ -147,3 +147,6 @@
 [submodule "bundle/vim-python-pep8-indent"]
 	path = bundle/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "bundle/vim-sql-workbench"]
+	path = bundle/vim-sql-workbench
+	url = https://github.com/cosminadrianpopescu/vim-sql-workbench
